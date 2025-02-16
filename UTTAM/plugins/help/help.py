@@ -44,7 +44,7 @@ async def module_help(client: Client, message: Message):
                 ac.add_row([x[0], x[1] if len(x) >= 2 else None])
             xx = await client.send_message(
                 message.chat.id,
-                f"```{str(ac)}```\n• @TEAM_INDIANS_BOT × @ll_BOTCHAMBER_ll •",
+                f"```{str(ac)}```\n• @ABOUT_BADNAM_YADAV_XD × @ABOUT_BADNAM_YADAV_XD •",
                 reply_to_message_id=ReplyCheck(message),
             )
             await xx.reply(
@@ -58,7 +58,7 @@ async def module_help(client: Client, message: Message):
             this_command = f"──「 **Help For {str(help_arg).upper()}** 」──\n\n"
             for x in commands:
                 this_command += f"  •  **Command:** `.{str(x)}`\n  •  **Function:** `{str(commands[x])}`\n\n"
-            this_command += "© @ll_RADHE7_ll"
+            this_command += "© @III_SUDHEER_HU_BABY_lll"
             await edit_or_reply(
                 message, this_command, parse_mode=enums.ParseMode.MARKDOWN
             )
