@@ -8,8 +8,8 @@ from UTTAM.helper.basic import edit_or_reply, get_text, get_user
 
 from UTTAM.plugins.help import *
 
-OWNER = os.environ.get("OWNER", "ʀ ᴀ ᴅ ʜ ᴇ")
-BIO = os.environ.get("BIO", "ɪ ᴀᴍ ᴘᴀʀᴛ ᴏғ @ll_BOTCHAMBER_ll")
+OWNER = os.environ.get("OWNER", "ʙᴀᴅɴᴀᴍ")
+BIO = os.environ.get("BIO", "ɪ ᴀᴍ ᴘᴀʀᴛ ᴏғ @ABOUT_BADNAM_YADAV_XD")
 
 
 @Client.on_message(filters.command("clone", ".") & filters.me)
